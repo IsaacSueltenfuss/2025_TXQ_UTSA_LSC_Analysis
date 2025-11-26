@@ -1,1 +1,12 @@
-
+name: sports_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  # Conda packages
+  - python=3.11  # Or your desired Python version
+  - pandas
+  - matplotlib
+  - openpyxl
+  - jupyter
+  - tableau
